@@ -17,3 +17,7 @@ function getHumanChoice() {
     console.log(people);
 }
 getHumanChoice();
+
+let humanScore = 0;
+let computerScore = 0;
+
