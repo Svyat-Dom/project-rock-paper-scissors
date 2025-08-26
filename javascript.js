@@ -8,8 +8,12 @@
 // Если значение от 67 до 100, тогда ножницы
 
 function getComputerChoice() {
-    return (Math.round(Math.random() * 100));
-   
+    let pc = (Math.round(Math.random() * 100));
+    if (pc >= 0 && pc <= 33) {
+        pc = 'Rock';
+    }
+    console.log(pc);
 
 }
-console.log(getComputerChoice());
+// console.log(getComputerChoice());
+getComputerChoice();
