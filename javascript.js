@@ -81,6 +81,8 @@ function game () {
     } else {
         console.log('Draw!');
     }
+
+    console.log(`PC total: ${computerScore}, Your total: ${humanScore}`);
 }
 
 
